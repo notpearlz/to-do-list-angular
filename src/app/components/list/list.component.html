@@ -1,11 +1,17 @@
 
 
 <div class="flex list border-2">
-    <app-create-to-do class="create-task center-h"></app-create-to-do>
-    <ul class="flex">
+    <div id="create-task" class="create-task center-h">
+        Create task: 
+        <input type="text" #taskInput (keydown.enter)="createTask(taskInput.value); taskInput.value=''">
+        <button (click)="createTask(taskInput.value); taskInput.value=''">Submit</button>
+    </div>
+
+    <ul id="task-list" class="flex">
         @for (task of tasks; track task){
             <li>
-                {{task}} <button> X </button>
+                <div class="task"> {{task}} </div> 
+                <button (click)="deleteTask(task) "> X </button>
             </li>
         }
     </ul> 

@@ -1,5 +1,5 @@
 .list {
-    height: 500px;
+    height: 100%;
     width: 300px;
     padding: 10px;
 }
@@ -27,6 +27,15 @@ button{
 
 }
 
+input {
+    margin-left: 5px;
+}
+
 .create-task{
     display: flex;
+}
+
+.task{
+    font-size: 25px;
+    margin-bottom: 5px;
 }
