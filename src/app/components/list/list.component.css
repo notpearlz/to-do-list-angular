@@ -1,0 +1,32 @@
+.list {
+    height: 500px;
+    width: 300px;
+    padding: 10px;
+}
+
+
+ul{
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+li{
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    list-style: none;
+
+    justify-content: center;
+}
+
+
+button{
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
+.create-task{
+    display: flex;
+}

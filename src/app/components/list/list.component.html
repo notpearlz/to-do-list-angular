@@ -1,0 +1,13 @@
+
+
+<div class="flex list border-2">
+    <app-create-to-do class="create-task center-h"></app-create-to-do>
+    <ul class="flex">
+        @for (task of tasks; track task){
+            <li>
+                {{task}} <button> X </button>
+            </li>
+        }
+    </ul> 
+</div>
+

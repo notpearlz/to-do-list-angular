@@ -1,0 +1,5 @@
+<div>
+    Create task: 
+    <input type="text" #taskInput (keydown.enter)="createTask(taskInput.value); taskInput.value=''">
+    <button (click)="createTask(taskInput.value); taskInput.value=''">Submit</button>
+</div>

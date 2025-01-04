@@ -1,1 +1,34 @@
 /* You can add global styles to this file, and also import other style files */
+html,
+body,
+.wrapper {
+    height: 100%;
+}
+
+li,
+ul,
+html,
+body,
+.wrapper{
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.full-center{
+    justify-content: center;
+    align-items: center;
+}
+
+.center-h{
+    justify-content: center;
+}
+
+.border-2{
+    border: 2px solid black;
+}
